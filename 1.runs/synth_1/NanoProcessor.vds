@@ -1,0 +1,436 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Wed May  6 21:18:57 2026
+# Process ID: 27560
+# Current directory: C:/Users/MANODYA TESHAN/Desktop/Optimized/1/1.runs/synth_1
+# Command line: vivado.exe -log NanoProcessor.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source NanoProcessor.tcl
+# Log file: C:/Users/MANODYA TESHAN/Desktop/Optimized/1/1.runs/synth_1/NanoProcessor.vds
+# Journal file: C:/Users/MANODYA TESHAN/Desktop/Optimized/1/1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source NanoProcessor.tcl -notrace
+Command: synth_design -top NanoProcessor -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 24448 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 383.562 ; gain = 96.891
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'NanoProcessor' [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/NanoProcessor.vhd:35]
+INFO: [Synth 8-3491] module 'Slow_Clock' declared at 'C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/Slow_Clock.vhd:5' bound to instance 'SlowClock' of component 'Slow_Clock' [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/NanoProcessor.vhd:140]
+INFO: [Synth 8-638] synthesizing module 'Slow_Clock' [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/Slow_Clock.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'Slow_Clock' (1#1) [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/Slow_Clock.vhd:12]
+INFO: [Synth 8-3491] module 'LUT_16_7' declared at 'C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/LUT_16_7.vhd:5' bound to instance 'LUT' of component 'LUT_16_7' [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/NanoProcessor.vhd:145]
+INFO: [Synth 8-638] synthesizing module 'LUT_16_7' [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/LUT_16_7.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'LUT_16_7' (2#1) [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/LUT_16_7.vhd:10]
+INFO: [Synth 8-3491] module 'PC_3_bit' declared at 'C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/PC_3_bit.vhd:5' bound to instance 'ProgramCounter' of component 'PC_3_bit' [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/NanoProcessor.vhd:150]
+INFO: [Synth 8-638] synthesizing module 'PC_3_bit' [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/PC_3_bit.vhd:12]
+INFO: [Synth 8-3491] module 'D_FF' declared at 'C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/D_FF.vhd:4' bound to instance 'DFF_0' of component 'D_FF' [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/PC_3_bit.vhd:24]
+INFO: [Synth 8-638] synthesizing module 'D_FF' [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/D_FF.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'D_FF' (3#1) [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/D_FF.vhd:11]
+INFO: [Synth 8-3491] module 'D_FF' declared at 'C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/D_FF.vhd:4' bound to instance 'DFF_1' of component 'D_FF' [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/PC_3_bit.vhd:27]
+INFO: [Synth 8-3491] module 'D_FF' declared at 'C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/D_FF.vhd:4' bound to instance 'DFF_2' of component 'D_FF' [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/PC_3_bit.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'PC_3_bit' (4#1) [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/PC_3_bit.vhd:12]
+INFO: [Synth 8-3491] module 'Program_ROM' declared at 'C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/Program_ROM.vhd:5' bound to instance 'ProgramRom' of component 'Program_ROM' [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/NanoProcessor.vhd:157]
+INFO: [Synth 8-638] synthesizing module 'Program_ROM' [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/Program_ROM.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'Program_ROM' (5#1) [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/Program_ROM.vhd:10]
+INFO: [Synth 8-3491] module 'Instruction_Decoder' declared at 'C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/Instruction_Decoder.vhd:4' bound to instance 'InstructionDecoder' of component 'Instruction_Decoder' [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/NanoProcessor.vhd:162]
+INFO: [Synth 8-638] synthesizing module 'Instruction_Decoder' [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/Instruction_Decoder.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'Instruction_Decoder' (6#1) [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/Instruction_Decoder.vhd:19]
+INFO: [Synth 8-3491] module 'MUX_2_way_4_bit' declared at 'C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/MUX_2_way_4_bit.vhd:4' bound to instance 'MUX_2_to_1_4bit_1' of component 'MUX_2_way_4_bit' [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/NanoProcessor.vhd:176]
+INFO: [Synth 8-638] synthesizing module 'MUX_2_way_4_bit' [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/MUX_2_way_4_bit.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'MUX_2_way_4_bit' (7#1) [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/MUX_2_way_4_bit.vhd:11]
+INFO: [Synth 8-3491] module 'Register_Bank' declared at 'C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/Register_Bank.vhd:4' bound to instance 'RegisterBank' of component 'Register_Bank' [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/NanoProcessor.vhd:183]
+INFO: [Synth 8-638] synthesizing module 'Register_Bank' [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/Register_Bank.vhd:19]
+INFO: [Synth 8-3491] module 'Decoder_3_to_8' declared at 'C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/Decoder_3_to_8.vhd:4' bound to instance 'Decoder_3_to_8_new' of component 'Decoder_3_to_8' [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/Register_Bank.vhd:39]
+INFO: [Synth 8-638] synthesizing module 'Decoder_3_to_8' [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/Decoder_3_to_8.vhd:12]
+INFO: [Synth 8-226] default block is never used [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/Decoder_3_to_8.vhd:18]
+INFO: [Synth 8-256] done synthesizing module 'Decoder_3_to_8' (8#1) [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/Decoder_3_to_8.vhd:12]
+INFO: [Synth 8-3491] module 'Register_4bit' declared at 'C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/Register_4bit.vhd:4' bound to instance 'Register_4bit_0' of component 'Register_4bit' [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/Register_Bank.vhd:46]
+INFO: [Synth 8-638] synthesizing module 'Register_4bit' [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/Register_4bit.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'Register_4bit' (9#1) [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/Register_4bit.vhd:14]
+INFO: [Synth 8-3491] module 'Register_4bit' declared at 'C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/Register_4bit.vhd:4' bound to instance 'Register_4bit_1' of component 'Register_4bit' [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/Register_Bank.vhd:55]
+INFO: [Synth 8-3491] module 'Register_4bit' declared at 'C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/Register_4bit.vhd:4' bound to instance 'Register_4bit_2' of component 'Register_4bit' [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/Register_Bank.vhd:64]
+INFO: [Synth 8-3491] module 'Register_4bit' declared at 'C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/Register_4bit.vhd:4' bound to instance 'Register_4bit_3' of component 'Register_4bit' [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/Register_Bank.vhd:73]
+INFO: [Synth 8-3491] module 'Register_4bit' declared at 'C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/Register_4bit.vhd:4' bound to instance 'Register_4bit_4' of component 'Register_4bit' [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/Register_Bank.vhd:82]
+INFO: [Synth 8-3491] module 'Register_4bit' declared at 'C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/Register_4bit.vhd:4' bound to instance 'Register_4bit_5' of component 'Register_4bit' [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/Register_Bank.vhd:91]
+INFO: [Synth 8-3491] module 'Register_4bit' declared at 'C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/Register_4bit.vhd:4' bound to instance 'Register_4bit_6' of component 'Register_4bit' [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/Register_Bank.vhd:100]
+INFO: [Synth 8-3491] module 'Register_4bit' declared at 'C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/Register_4bit.vhd:4' bound to instance 'Register_4bit_7' of component 'Register_4bit' [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/Register_Bank.vhd:109]
+INFO: [Synth 8-256] done synthesizing module 'Register_Bank' (10#1) [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/Register_Bank.vhd:19]
+INFO: [Synth 8-3491] module 'MUX_8_way_4_bit' declared at 'C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/MUX_8_way_4_bit.vhd:4' bound to instance 'MUX_8_to_1_4bit_0' of component 'MUX_8_way_4_bit' [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/NanoProcessor.vhd:198]
+INFO: [Synth 8-638] synthesizing module 'MUX_8_way_4_bit' [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/MUX_8_way_4_bit.vhd:17]
+INFO: [Synth 8-226] default block is never used [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/MUX_8_way_4_bit.vhd:21]
+INFO: [Synth 8-256] done synthesizing module 'MUX_8_way_4_bit' (11#1) [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/MUX_8_way_4_bit.vhd:17]
+INFO: [Synth 8-3491] module 'MUX_8_way_4_bit' declared at 'C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/MUX_8_way_4_bit.vhd:4' bound to instance 'MUX_8_to_1_4bit_1' of component 'MUX_8_way_4_bit' [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/NanoProcessor.vhd:211]
+INFO: [Synth 8-3491] module 'ADD_SUB_4bit' declared at 'C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/ADD_SUB_4bit.vhd:4' bound to instance 'AddSub' of component 'ADD_SUB_4bit' [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/NanoProcessor.vhd:224]
+INFO: [Synth 8-638] synthesizing module 'ADD_SUB_4bit' [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/ADD_SUB_4bit.vhd:14]
+INFO: [Synth 8-3491] module 'RCA_4' declared at 'C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/RCA_4.vhd:4' bound to instance 'RCA0' of component 'RCA_4' [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/ADD_SUB_4bit.vhd:31]
+INFO: [Synth 8-638] synthesizing module 'RCA_4' [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/RCA_4.vhd:14]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/FA.vhd:4' bound to instance 'FA0' of component 'FA' [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/RCA_4.vhd:30]
+INFO: [Synth 8-638] synthesizing module 'FA' [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/FA.vhd:12]
+INFO: [Synth 8-3491] module 'HA' declared at 'C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/HA.vhd:4' bound to instance 'HA0' of component 'HA' [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/FA.vhd:23]
+INFO: [Synth 8-638] synthesizing module 'HA' [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/HA.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'HA' (12#1) [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/HA.vhd:11]
+INFO: [Synth 8-3491] module 'HA' declared at 'C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/HA.vhd:4' bound to instance 'HA1' of component 'HA' [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/FA.vhd:29]
+INFO: [Synth 8-256] done synthesizing module 'FA' (13#1) [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/FA.vhd:12]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/FA.vhd:4' bound to instance 'FA1' of component 'FA' [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/RCA_4.vhd:37]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/FA.vhd:4' bound to instance 'FA2' of component 'FA' [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/RCA_4.vhd:44]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/FA.vhd:4' bound to instance 'FA3' of component 'FA' [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/RCA_4.vhd:51]
+INFO: [Synth 8-256] done synthesizing module 'RCA_4' (14#1) [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/RCA_4.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'ADD_SUB_4bit' (15#1) [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/ADD_SUB_4bit.vhd:14]
+INFO: [Synth 8-3491] module 'MUX_2_way_3_bit' declared at 'C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/MUX_2_way_3_bit.vhd:4' bound to instance 'Mux_2_to_1_3bit_0' of component 'MUX_2_way_3_bit' [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/NanoProcessor.vhd:234]
+INFO: [Synth 8-638] synthesizing module 'MUX_2_way_3_bit' [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/MUX_2_way_3_bit.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'MUX_2_way_3_bit' (16#1) [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/MUX_2_way_3_bit.vhd:11]
+INFO: [Synth 8-3491] module 'Adder_3bit' declared at 'C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/Adder_3bit.vhd:4' bound to instance 'Adder3bit' of component 'Adder_3bit' [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/NanoProcessor.vhd:241]
+INFO: [Synth 8-638] synthesizing module 'Adder_3bit' [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/Adder_3bit.vhd:10]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/FA.vhd:4' bound to instance 'FA_0' of component 'FA' [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/Adder_3bit.vhd:23]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/FA.vhd:4' bound to instance 'FA_1' of component 'FA' [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/Adder_3bit.vhd:32]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/FA.vhd:4' bound to instance 'FA_2' of component 'FA' [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/Adder_3bit.vhd:40]
+WARNING: [Synth 8-3848] Net C_out in module/entity Adder_3bit does not have driver. [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/Adder_3bit.vhd:7]
+INFO: [Synth 8-256] done synthesizing module 'Adder_3bit' (17#1) [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/Adder_3bit.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'NanoProcessor' (18#1) [C:/Users/MANODYA TESHAN/Desktop/Tamil 4bit-NanoProcessor-main/NanoProcessor_VBasic/NanoProcessor_V1/NanoProcessor_V1.srcs/sources_1/new/NanoProcessor.vhd:35]
+WARNING: [Synth 8-3917] design NanoProcessor has port anode[3] driven by constant 1
+WARNING: [Synth 8-3917] design NanoProcessor has port anode[2] driven by constant 1
+WARNING: [Synth 8-3917] design NanoProcessor has port anode[1] driven by constant 1
+WARNING: [Synth 8-3917] design NanoProcessor has port anode[0] driven by constant 0
+WARNING: [Synth 8-3331] design Adder_3bit has unconnected port C_out
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 439.781 ; gain = 153.109
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 439.781 ; gain = 153.109
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 439.781 ; gain = 153.109
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/MANODYA TESHAN/Desktop/Optimized/1/1.srcs/constrs_1/new/basys3.xdc]
+Finished Parsing XDC File [C:/Users/MANODYA TESHAN/Desktop/Optimized/1/1.srcs/constrs_1/new/basys3.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/MANODYA TESHAN/Desktop/Optimized/1/1.srcs/constrs_1/new/basys3.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/NanoProcessor_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/NanoProcessor_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 769.812 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 769.812 ; gain = 483.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 769.812 ; gain = 483.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 769.812 ; gain = 483.141
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "sevenSegment_ROM" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "twelveSegmant_ROM" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Load_Select" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Add_Sub" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 769.812 ; gain = 483.141
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 20    
++---Registers : 
+	                4 Bit    Registers := 8     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   9 Input     12 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   8 Input      8 Bit        Muxes := 1     
+	  17 Input      7 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module LUT_16_7 
+Detailed RTL Component Info : 
++---Muxes : 
+	  17 Input      7 Bit        Muxes := 1     
+Module D_FF 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module Program_ROM 
+Detailed RTL Component Info : 
++---Muxes : 
+	   9 Input     12 Bit        Muxes := 1     
+Module Instruction_Decoder 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      3 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 2     
+Module MUX_2_way_4_bit 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+Module Decoder_3_to_8 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   8 Input      8 Bit        Muxes := 1     
+Module Register_4bit 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
+Module HA 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+Module ADD_SUB_4bit 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 6     
+Module MUX_2_way_3_bit 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      3 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5544] ROM "RegisterBank/Decoder_3_to_8_new/" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+WARNING: [Synth 8-3917] design NanoProcessor has port anode[3] driven by constant 1
+WARNING: [Synth 8-3917] design NanoProcessor has port anode[2] driven by constant 1
+WARNING: [Synth 8-3917] design NanoProcessor has port anode[1] driven by constant 1
+WARNING: [Synth 8-3917] design NanoProcessor has port anode[0] driven by constant 0
+INFO: [Synth 8-3886] merging instance 'RegisterBank/Register_4bit_0/Q_reg[3]' (FDCE) to 'RegisterBank/Register_4bit_0/Q_reg[2]'
+INFO: [Synth 8-3886] merging instance 'RegisterBank/Register_4bit_0/Q_reg[2]' (FDCE) to 'RegisterBank/Register_4bit_0/Q_reg[1]'
+INFO: [Synth 8-3886] merging instance 'RegisterBank/Register_4bit_0/Q_reg[0]' (FDCE) to 'RegisterBank/Register_4bit_0/Q_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RegisterBank/Register_4bit_0/Q_reg[1] )
+WARNING: [Synth 8-3332] Sequential element (RegisterBank/Register_4bit_0/Q_reg[1]) is unused and will be removed from module NanoProcessor.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 769.812 ; gain = 483.141
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 769.812 ; gain = 483.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 769.812 ; gain = 483.141
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'RegisterBank/Register_4bit_4/Q_reg[1]' (FDCE) to 'RegisterBank/Register_4bit_6/Q_reg[1]'
+INFO: [Synth 8-3886] merging instance 'RegisterBank/Register_4bit_6/Q_reg[1]' (FDCE) to 'RegisterBank/Register_4bit_5/Q_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RegisterBank/Register_4bit_5/Q_reg[1] )
+INFO: [Synth 8-3886] merging instance 'RegisterBank/Register_4bit_4/Q_reg[0]' (FDCE) to 'RegisterBank/Register_4bit_6/Q_reg[0]'
+INFO: [Synth 8-3886] merging instance 'RegisterBank/Register_4bit_6/Q_reg[0]' (FDCE) to 'RegisterBank/Register_4bit_5/Q_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RegisterBank/Register_4bit_5/Q_reg[0] )
+INFO: [Synth 8-3886] merging instance 'RegisterBank/Register_4bit_4/Q_reg[3]' (FDCE) to 'RegisterBank/Register_4bit_6/Q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RegisterBank/Register_4bit_6/Q_reg[3]' (FDCE) to 'RegisterBank/Register_4bit_5/Q_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RegisterBank/Register_4bit_5/Q_reg[3] )
+INFO: [Synth 8-3886] merging instance 'RegisterBank/Register_4bit_4/Q_reg[2]' (FDCE) to 'RegisterBank/Register_4bit_6/Q_reg[2]'
+INFO: [Synth 8-3886] merging instance 'RegisterBank/Register_4bit_6/Q_reg[2]' (FDCE) to 'RegisterBank/Register_4bit_5/Q_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RegisterBank/Register_4bit_5/Q_reg[2] )
+WARNING: [Synth 8-3332] Sequential element (RegisterBank/Register_4bit_5/Q_reg[1]) is unused and will be removed from module NanoProcessor.
+WARNING: [Synth 8-3332] Sequential element (RegisterBank/Register_4bit_5/Q_reg[0]) is unused and will be removed from module NanoProcessor.
+WARNING: [Synth 8-3332] Sequential element (RegisterBank/Register_4bit_5/Q_reg[3]) is unused and will be removed from module NanoProcessor.
+WARNING: [Synth 8-3332] Sequential element (RegisterBank/Register_4bit_5/Q_reg[2]) is unused and will be removed from module NanoProcessor.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 784.059 ; gain = 497.387
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 784.059 ; gain = 497.387
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 784.059 ; gain = 497.387
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 784.059 ; gain = 497.387
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 784.059 ; gain = 497.387
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 784.059 ; gain = 497.387
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 784.059 ; gain = 497.387
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     7|
+|3     |LUT1   |     1|
+|4     |LUT2   |     2|
+|5     |LUT3   |     7|
+|6     |LUT4   |    14|
+|7     |LUT5   |     7|
+|8     |LUT6   |    10|
+|9     |FDCE   |    19|
+|10    |FDRE   |    26|
+|11    |IBUF   |     2|
+|12    |OBUF   |    18|
++------+-------+------+
+
+Report Instance Areas: 
++------+--------------------+----------------+------+
+|      |Instance            |Module          |Cells |
++------+--------------------+----------------+------+
+|1     |top                 |                |   114|
+|2     |  ProgramCounter    |PC_3_bit        |    22|
+|3     |    DFF_0           |D_FF            |    18|
+|4     |    DFF_1           |D_FF_3          |     2|
+|5     |    DFF_2           |D_FF_4          |     2|
+|6     |  RegisterBank      |Register_Bank   |    37|
+|7     |    Register_4bit_1 |Register_4bit   |     4|
+|8     |    Register_4bit_2 |Register_4bit_0 |    18|
+|9     |    Register_4bit_3 |Register_4bit_1 |     4|
+|10    |    Register_4bit_7 |Register_4bit_2 |    11|
+|11    |  SlowClock         |Slow_Clock      |    34|
++------+--------------------+----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 784.059 ; gain = 497.387
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 9 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 784.059 ; gain = 167.355
+Synthesis Optimization Complete : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 784.059 ; gain = 497.387
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 9 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+105 Infos, 15 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:21 . Memory (MB): peak = 784.059 ; gain = 510.215
+INFO: [Common 17-1381] The checkpoint 'C:/Users/MANODYA TESHAN/Desktop/Optimized/1/1.runs/synth_1/NanoProcessor.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file NanoProcessor_utilization_synth.rpt -pb NanoProcessor_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 784.059 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed May  6 21:19:21 2026...
